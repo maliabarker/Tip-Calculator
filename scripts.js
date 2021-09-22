@@ -31,8 +31,8 @@ function handleBill(e) {
     let perPerson = total / party;
     console.log(perPerson.toFixed(2));
 
-    displayTip.innerHTML = `Tip: ${tip.toFixed(2)}`;
-    displayTotal.innerHTML = `Total: ${total.toFixed(2)}`;
-    displayPerPerson.innerHTML = `Cost per Person: ${perPerson.toFixed(2)}`;
+    displayTip.innerHTML = `Tip: $${tip.toFixed(2)}`;
+    displayTotal.innerHTML = `Total: $${total.toFixed(2)}`;
+    displayPerPerson.innerHTML = `Cost per Person: $${perPerson.toFixed(2)}`;
 };
 
