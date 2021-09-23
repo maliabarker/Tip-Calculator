@@ -17,6 +17,7 @@ main {
 .dollar-sign {
     display: inline-block;
     position: relative;
+    color: #575757;
 }
 .dollar-sign:before {
     position: absolute;
@@ -28,6 +29,7 @@ main {
 .percent-sign {
     display:inline-block;
     position: relative;
+    color: #575757;
 }
 
 .percent-sign:after {
@@ -50,6 +52,36 @@ input {
 
 p {
     margin-top: 20px;
+}
+
+button {
+    text-align: center;
+    background-color: #c7c7c7;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: #acacac;
+    padding: 10px;
+    display: inline-block;
+    font-size: 1em;
+    color: #575757;
+}
+
+.plus-sign {
+    position: relative;
+    right: 32px;
+    height: 46px;
+}
+
+.minus-sign {
+    height: 46px;
+    position: relative;
+    width: 34px;
+}
+
+.input-people {
+    width: 166px;
+    margin-left: -10px;
 }
 
 #right-side {
